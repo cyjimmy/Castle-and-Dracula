@@ -1,9 +1,3 @@
-"""
-Your name: Chun Yip Wong (Jimmy)
-Your student number: A01268536
-
-All of your code must go in this file.
-"""
 import random
 from itertools import cycle
 
