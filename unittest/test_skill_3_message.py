@@ -39,5 +39,5 @@ class TestSkill3Message(TestCase):
         foe = "Barbarian"
         skill_3_message(character, foe)
         the_function_printed_this = mock_output.getvalue()
-        expected_output = "\nYou have Hypnotize the Barbarian. He will not attack you for 2 rounds.\n"
+        expected_output = "\nYou have Hypnotized the Barbarian. He will not attack you for 2 rounds.\n"
         self.assertEqual(expected_output, the_function_printed_this)

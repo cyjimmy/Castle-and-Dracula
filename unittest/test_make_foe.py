@@ -23,7 +23,7 @@ class TestMakeFoe(TestCase):
                     "Skill": "Ground Slam", "Level": 3, "Accuracy": 0.6}
         self.assertEqual(expected, actual)
         the_function_printed_this = mock_output.getvalue()
-        expected_output = "\nYou have awaken a level 3 Cyclops!\n"
+        expected_output = "\nYou have awakened a level 3 Cyclops!\n"
         self.assertEqual(expected_output, the_function_printed_this)
 
     @patch('random.randint', side_effect=[1, 5])

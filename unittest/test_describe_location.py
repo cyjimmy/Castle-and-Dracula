@@ -11,7 +11,7 @@ class TestDescribeLocation(TestCase):
         location = "C"
         describe_location(location)
         the_function_printed_this = mock_output.getvalue()
-        expected_output = "\nYou came across a church that was decorated with colorful stained glass.\n"
+        expected_output = "\nYou came across a church that was decorated with colorful stained-glass.\n"
         self.assertEqual(expected_output, the_function_printed_this)
 
     @patch('sys.stdout', new_callable=io.StringIO)
